@@ -5,6 +5,6 @@ from . import productos
 def mostrar_productos():
     return render_template('productos.html')
 
-@productos.route('/guardar-producto', methods=['GET', 'POST'])
+@productos.route('/registrar-producto', methods=['GET', 'POST'])
 def guardar_producto():
     return render_template('formulario-producto.html')

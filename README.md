@@ -7,15 +7,16 @@ myapp/
 ├── config  
 │   ├── config.cfg  
 │   └── test.py  
+├── static   
+|  ├── css  
+|  │   └── loquesea.css  
+|  └── js  
+|      └── loquesea.js  
 ├── __init__.py  
 ├── productos  
 │   ├── __init__.py  
 │   ├── routes.py  
-│   ├── static  
-│   │   ├── css  
-│   │   │   └── loquesea.css  
-│   │   └── js  
-│   │       └── loquesea.js  
+│   ├── static   
 │   └── templates  
 │       ├── formulario-producto.html  
 │       └── productos.html  
@@ -23,11 +24,6 @@ myapp/
    ├── __init__.py  
    ├── models.py  
    ├── routes.py  
-   ├── static   
-   │   ├── css  
-   │   │   └── loquesea.css  
-   │   └── js  
-   │       └── loquesea.js  
    └── templates  
        ├── Formulario.html  
        └── Proveedores.html  
