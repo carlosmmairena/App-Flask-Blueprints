@@ -8,10 +8,10 @@ myapp/
 │   ├── config.cfg  
 │   └── test.py  
 ├── static   
-|  ├── css  
-|  │   └── loquesea.css  
-|  └── js  
-|      └── loquesea.js  
+|   ├── css  
+|   │   └── loquesea.css  
+|   └── js  
+|       └── loquesea.js  
 ├── __init__.py  
 ├── productos  
 │   ├── __init__.py  
@@ -25,8 +25,8 @@ myapp/
    ├── models.py  
    ├── routes.py  
    └── templates  
-       ├── Formulario.html  
-       └── Proveedores.html  
+        ├── Formulario.html  
+        └── Proveedores.html     
   
   
 ------------------------------  
