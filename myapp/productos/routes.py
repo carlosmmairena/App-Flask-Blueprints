@@ -1,6 +1,7 @@
 from flask import render_template
 from . import productos
 
+@productos.route('/', methods=['GET'])
 @productos.route('/productos', methods=['GET', 'POST'])
 def mostrar_productos():
     return render_template('productos.html')
